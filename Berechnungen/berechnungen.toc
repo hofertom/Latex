@@ -1,0 +1,34 @@
+\select@language {naustrian}
+\contentsline {chapter}{\numberline {1}Bemessungsansatz f\IeC {\"u}r das Holz-Holzspanbeton-System}{2}
+\contentsline {subparagraph}{Annahmen f\IeC {\"u}r das Beispiel:}{2}
+\contentsline {section}{\numberline {1.1}Bauteilgeometrie und Abmessungen}{3}
+\contentsline {section}{\numberline {1.2}Angaben der Berechnung}{3}
+\contentsline {subsection}{\numberline {1.2.1}SVB}{3}
+\contentsline {subsection}{\numberline {1.2.2}Velox}{4}
+\contentsline {subsection}{\numberline {1.2.3}BSP}{4}
+\contentsline {section}{\numberline {1.3}Einwirkungen}{4}
+\contentsline {section}{\numberline {1.4}Bemessungsschnittgr\IeC {\"o}\IeC {\ss }en}{5}
+\contentsline {section}{\numberline {1.5}Verschiebungsmodul}{5}
+\contentsline {section}{\numberline {1.6}Bestimmung der effektiven Biegesteifigkeit}{5}
+\contentsline {subsection}{\numberline {1.6.1}Bestimmug der $\gamma $ Faktoren}{5}
+\contentsline {subsection}{\numberline {1.6.2}Bestimmung des Schwerpunktes}{6}
+\contentsline {subsection}{\numberline {1.6.3}Bestimmung der effektiven Biegesteifigkeit}{6}
+\contentsline {section}{\numberline {1.7}Schnittgr\IeC {\"o}\IeC {\ss }en der Teilquerschnitte}{6}
+\contentsline {subparagraph}{Teilquerschnitt 1}{6}
+\contentsline {subparagraph}{Teilquerschnitt 2}{6}
+\contentsline {section}{\numberline {1.8}Ermittlung der Normalspannungen}{7}
+\contentsline {subparagraph}{Teilquerschnitt 1}{7}
+\contentsline {subparagraph}{Teilquerschnitt 2}{7}
+\contentsline {section}{\numberline {1.9}Ermittlung der Schubspannungen}{8}
+\contentsline {subparagraph}{Teilquerschnitt 1}{8}
+\contentsline {subparagraph}{Teilquerschnitt 2}{8}
+\contentsline {section}{\numberline {1.10}Spannungsnachweise}{9}
+\contentsline {subparagraph}{SCC}{9}
+\contentsline {subparagraph}{Velox}{9}
+\contentsline {subparagraph}{SCC}{9}
+\contentsline {section}{\numberline {1.11}Durchbiegung}{9}
+\contentsline {subparagraph}{Durchbiegung zufolge Eingengewicht}{9}
+\contentsline {subparagraph}{Durchbiegung zufolge Nutzlast}{9}
+\contentsline {subparagraph}{Charakteristische Bemessungssituation:Anfangszustand}{9}
+\contentsline {subparagraph}{Charakteristische Bemessungssituation:Endzustand}{10}
+\contentsline {subparagraph}{Quasi-st\IeC {\"a}ndige Durchbiegung:Endzustand}{10}

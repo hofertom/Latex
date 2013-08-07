@@ -1,0 +1,71 @@
+\select@language {naustrian}
+\contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{3}
+\contentsline {section}{\numberline {1.1}Einleitung, Ziele und Vorgehensweise}{3}
+\contentsline {section}{\numberline {1.2}Zusammenfassung der Kapitel}{4}
+\contentsline {chapter}{\numberline {2}Verbindungsmittel}{5}
+\contentsline {section}{\numberline {2.1}Schrauben}{5}
+\contentsline {subsection}{\numberline {2.1.1}Schraubentype: WR \IeC {\textendash } dxL}{6}
+\contentsline {subsection}{\numberline {2.1.2}Schraubentype: TWIN-UD dxL Sichel}{7}
+\contentsline {subsection}{\numberline {2.1.3}Schraubentype: WT \IeC {\textendash } T dxL}{7}
+\contentsline {subsection}{\numberline {2.1.4}Schraubentype: WR \IeC {\textendash } T dxL}{8}
+\contentsline {subsection}{\numberline {2.1.5}Versuchsaufbau f\IeC {\"u}r Schrauben}{8}
+\contentsline {subsection}{\numberline {2.1.6}Versuchsauswertung}{9}
+\contentsline {section}{\numberline {2.2}Kleber}{10}
+\contentsline {subsection}{\numberline {2.2.1}Einteilung}{10}
+\contentsline {subsection}{\numberline {2.2.2}Vor- und Nachteile der Klebverbindungen}{10}
+\contentsline {subsection}{\numberline {2.2.3}Ermitllung des Kleberbedarfs mit der Sandfleckmethode}{11}
+\contentsline {paragraph}{Durchf\IeC {\"u}hrung}{12}
+\contentsline {paragraph}{Berechnng des Kleberbedarfs: SikaTop-109 ElastoCem, nach Sika}{12}
+\contentsline {subparagraph}{Berechnung der Rauigkeit:}{12}
+\contentsline {subparagraph}{Kleberbedarf/$m^{2}$}{13}
+\contentsline {subparagraph}{Kleberbedarf f\IeC {\"u}r Porenverschluss: Kp}{13}
+\contentsline {subparagraph}{Bedarf f\IeC {\"u}r CLT-Velox-Schichte}{13}
+\contentsline {subparagraph}{Bedarf f\IeC {\"u}r Velox-Velox-Schichte}{13}
+\contentsline {subparagraph}{Ben\IeC {\"o}tigter Kleber f\IeC {\"u}r den gesamten Tr\IeC {\"a}ger}{13}
+\contentsline {subsection}{\numberline {2.2.4}1 Kleberversuchsreihe}{13}
+\contentsline {section}{\numberline {2.3}Haftzugpr\IeC {\"u}fung}{14}
+\contentsline {subsection}{\numberline {2.3.1}Versuchsvorbereitung}{15}
+\contentsline {subsection}{\numberline {2.3.2}Versuchsdurchf\IeC {\"u}hrung}{16}
+\contentsline {subsection}{\numberline {2.3.3}2 Kleberversuchsreihe}{18}
+\contentsline {paragraph}{Allgemeines zum Versuch:}{19}
+\contentsline {paragraph}{Fazit:}{21}
+\contentsline {chapter}{\numberline {3}Aufbau des Gro\IeC {\ss }bauteilsversuch}{22}
+\contentsline {section}{\numberline {3.1}Allgemeines}{22}
+\contentsline {section}{\numberline {3.2}Verwendete Bauteilkomponenten}{22}
+\contentsline {subsection}{\numberline {3.2.1}Selbstverdichtender Beton, SCC}{22}
+\contentsline {subsection}{\numberline {3.2.2}Holzspanbeton}{22}
+\contentsline {subsection}{\numberline {3.2.3}Kreuzlagenholz, CLT}{23}
+\contentsline {subsection}{\numberline {3.2.4}Verbindunsmittel}{24}
+\contentsline {section}{\numberline {3.3}Herstellung des Sandwichaufbaus}{25}
+\contentsline {chapter}{\numberline {4}Versuchsaufbau und Durchf\IeC {\"u}hrung}{27}
+\contentsline {section}{\numberline {4.1}Verwendete Messmittel und deren Anordnung}{27}
+\contentsline {section}{\numberline {4.2}Wegaufnehmer}{27}
+\contentsline {subsection}{\numberline {4.2.1}Analoge Wegaufnehmer}{28}
+\contentsline {subsection}{\numberline {4.2.2}Digitale Wegaufnehmer}{28}
+\contentsline {section}{\numberline {4.3}Durchf\IeC {\"u}hrung des Versuchs}{29}
+\contentsline {paragraph}{Belastungserkl\IeC {\"a}rung}{29}
+\contentsline {chapter}{\numberline {5}Auswertung der Versuche}{32}
+\contentsline {section}{\numberline {5.1}Allgemeines}{32}
+\contentsline {section}{\numberline {5.2}1 Versuch}{32}
+\contentsline {subsection}{\numberline {5.2.1}Anmerkung:}{32}
+\contentsline {subsection}{\numberline {5.2.2}Versagensbeschreibung}{32}
+\contentsline {subsection}{\numberline {5.2.3}Auswertung des 1 Versuchs}{35}
+\contentsline {subsection}{\numberline {5.2.4}Schubversuch}{37}
+\contentsline {paragraph}{Erkl\IeC {\"a}rung des Schubversuchs}{37}
+\contentsline {paragraph}{Abemessungen und Versuchsdarstellung}{39}
+\contentsline {paragraph}{Messeinrichtung}{39}
+\contentsline {paragraph}{Versuchsablauf}{39}
+\contentsline {paragraph}{Auswertung des Schubversuchs}{40}
+\contentsline {section}{\numberline {5.3}2 Versuch}{42}
+\contentsline {subsection}{\numberline {5.3.1}Anmerkung:}{42}
+\contentsline {subsection}{\numberline {5.3.2}Vorbemerkung}{44}
+\contentsline {subsection}{\numberline {5.3.3}Versagensbeschreibung}{44}
+\contentsline {subsection}{\numberline {5.3.4}Auswertung des 2 Versuchs}{44}
+\contentsline {section}{\numberline {5.4}3 Versuch}{48}
+\contentsline {subsection}{\numberline {5.4.1}Anmerkung:}{48}
+\contentsline {section}{\numberline {5.5}4 Versuch}{49}
+\contentsline {subsection}{\numberline {5.5.1}Anmerkung:}{49}
+\contentsline {chapter}{\numberline {6}Berechnungen}{50}
+\contentsline {section}{\numberline {6.1}$\gamma $ - Verfahren}{50}
+\contentsline {section}{\numberline {6.2}FEM-Sofistik}{52}
+\contentsline {section}{\numberline {6.3}Vergleich Berechnungen}{52}

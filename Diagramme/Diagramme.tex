@@ -1,0 +1,79 @@
+\documentclass[12 pt,a4 paper ]{scrreprt}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[naustrian]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{pgfplots}
+
+\usepackage{nicefrac}
+\usepackage{units}
+%\usepackage[tight]{units}
+%\usepackage[loose]{units}
+
+
+
+
+
+
+
+\usepackage[headsepline,plainheadsepline]{scrpage2}
+\pagestyle{scrheadings}
+\ihead[\rightmark]{\rightmark} \chead[]{}
+%\ohead[\pagemark]{\pagemark} \cfoot[]{}
+
+\automark{chapter}
+\renewcommand{\chaptermark}[1]{\markright{\ #1}}
+
+
+\pgfplotsset{width=10cm,compat=1.6}
+
+% for dvipdfm:
+% \def\pgfsysdriver{pgfsys-dvipdfm.def}
+\usepackage{pgfplots}
+%\pgfplotsset{compat=1.6}% <-- moves axis labels near ticklabels (respects tick label widths)
+\begin{document}
+
+
+\centering
+\begin{tikzpicture}
+
+\begin{axis}[
+xlabel=Cost $\gamma$,
+ylabel=Error,title=haha]
+\addplot[color=red,mark=x] coordinates {
+(2,-2.8559703)
+(3,-3.5301677)
+(4,-4.3050655)
+(5,-5.1413136)
+(6,-6.0322865)
+(7,-6.9675052)
+(8,-7.9377747)
+};
+
+\addplot[color=blue,mark=x] coordinates {
+(1,-2.8559703)
+(2,-3.5301677)
+(3,-4.3050655)
+(4,-5.1413136)
+(5,-6.0322865)
+(6,-6.9675052)
+(7,-7.9377747)
+};
+
+\legend{case1, case2}
+\end{axis}
+\end{tikzpicture}
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,14 @@
+\select@language {naustrian}
+\contentsline {chapter}{\numberline {1}Berechnungen}{2}
+\contentsline {section}{\numberline {1.1}$\gamma $- Verfahren}{2}
+\contentsline {subparagraph}{Fugensteifigkeit}{3}
+\contentsline {subparagraph}{Nachgiebigkeitsfaktoren}{4}
+\contentsline {subparagraph}{Lage der ideellen Schwerachsen der Teilquerschnitte}{4}
+\contentsline {subparagraph}{effektive Biegefestigkeit}{4}
+\contentsline {subparagraph}{Schnittkr\IeC {\"a}fte:Normalkraft und Biegemoment}{4}
+\contentsline {subparagraph}{Normalspannung}{4}
+\contentsline {subparagraph}{Schubspannung}{4}
+\contentsline {subparagraph}{Berechnung der Durchbiegung f\IeC {\"u}r 4-Punkt-Biegeversuch}{4}
+\contentsline {section}{\numberline {1.2}Parameterstudie}{5}
+\contentsline {subsection}{\numberline {1.2.1}Nachrechnung der Versuche}{5}
+\contentsline {subparagraph}{Conclusio:}{5}

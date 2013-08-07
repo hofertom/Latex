@@ -1,0 +1,91 @@
+\documentclass[12 pt,a4 paper, ]{scrreprt}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+%---------------------------------------------------------- 
+\usepackage[utf8]{inputenc}
+\usepackage[naustrian]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{amsmath,amssymb,amstext}
+
+\usepackage{eurosym}
+\usepackage{nicefrac}
+\usepackage{units}
+\usepackage{color}
+%\usepackage[tight]{units}
+%\usepackage[loose]{units}
+\usepackage{pgfplots, pgfplotstable}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\usepackage{babelbib} %Literaturverzeichnis
+\usepackage[headsepline,plainheadsepline]{scrpage2}
+\pagestyle{scrheadings}
+\ihead[\rightmark]{\rightmark} \chead[]{}
+%\ohead[\pagemark]{\pagemark} \cfoot[]{}
+
+\automark{chapter}
+\renewcommand{\chaptermark}[1]{\markright{\ #1}}
+
+%\usepackage[square, comma, numbers, sort&compress]{natbib}
+%\usepackage{bibgerm} %Literaturverzeichnis
+
+
+
+
+\pgfplotsset{width=15cm,compat=1.6}
+\usepackage{pgfplots}
+
+
+
+\begin{document}
+\tableofcontents
+%\include{Einleitung/Einfuehrung}
+
+
+%\include{Verbindungsmittel/Verbindungsmittel}
+
+\include{Aufbau/Aufbau}
+
+\include{Versuchsaufbau/Versuchsaufbau}
+
+\include{Auswertung/Auswertung}
+
+
+%\include{gammaverfahren/gammaverfahren}
+
+%\include{Berechnungen/berechnungen}
+
+
+%\include{Wirtschaftlichkeitsvergleich/Wirtschaftlichkeitsvergleich}
+
+
+%--------------------------------------------------------------------------
+
+%Verzeichnisse
+%\newpage
+% \addcontentsline{toc}{chapter}{Verzeichnisse}
+
+%\listoffigures
+% \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+
+%\newpage
+%\listoftables
+% \addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+% Literaturverzeichnis
+\newpage
+\nocite{*}
+
+%\bibliographystyle{alphadin}%gerplain, gerunsrt, geralpha, gerapali
+%\bibliography{Verzeichnis} %BibTeX-File da_bibliography.bib
+% \listoftodos
+
+
+\end{document}

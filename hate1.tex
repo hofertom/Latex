@@ -1,0 +1,210 @@
+\documentclass[12 pt,a4 paper ]{scrreprt}
+%---------------------------------------------------------- 
+\usepackage[utf8]{inputenc}
+\usepackage[naustrian]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{pgfplots}
+\usepackage{eurosym}
+\usepackage{nicefrac}
+\usepackage{units}
+\usepackage{color}
+%\usepackage[tight]{units}
+%\usepackage[loose]{units}
+\usepackage{pgfplots, pgfplotstable}
+\usepackage[headsepline,plainheadsepline]{scrpage2}
+\pagestyle{scrheadings}
+\ihead[\rightmark]{\rightmark} \chead[]{}
+%\ohead[\pagemark]{\pagemark} \cfoot[]{}
+\usepackage{pgfplots, pgfplotstable}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\automark{chapter}
+\renewcommand{\chaptermark}[1]{\markright{\ #1}}
+
+
+
+\pgfplotsset{width=15cm,compat=1.6}
+\usepackage{pgfplots}
+
+ \usepackage[raiselinks]{hyperref}
+\usepackage{amsfonts}  
+\usepackage{babelbib} 
+\usepackage{url} 
+%\usepackage[fixlanguage]{babelbib}
+
+\begin{document} 
+
+
+\begin{figure}
+
+\begin{tikzpicture}
+\pgfplotsset{small}
+\matrix{
+\begin{axis}[
+			title = $F_{max}$,
+			ylabel= $\lbrack kN\rbrack $,
+			ybar,
+			enlargelimits=0.25,
+			symbolic x coords={BT1,BT2,BT3,BT4},
+			xtick=data,
+			nodes near coords
+			]
+\addplot coordinates {(BT1,72) (BT2,30) (BT3,58) (BT4,12)};
+\end{axis}
+
+&
+
+\begin{axis}[
+			title = $F_{w=l/400}$,
+			ylabel= $\lbrack kN\rbrack $ ,
+			ybar,
+			enlargelimits=0.25,
+			symbolic x coords={BT1,BT2,BT3,BT4},
+			xtick=data,
+			nodes near coords
+			]
+\pgfplotsset{cycle list shift=1}
+\addplot coordinates {(BT1,25) (BT2,15) (BT3,24) (BT4,5.0)};
+\end{axis}
+
+\\
+
+\begin{axis}[
+			title = $w_{max \left( F=8kN \right) }$,
+			ylabel= $\lbrack mm\rbrack $ ,
+			ybar,
+			enlargelimits=0.25,
+			symbolic x coords={BT1,BT2,BT3,BT4},
+			xtick=data,
+			nodes near coords
+			]
+\pgfplotsset{cycle list shift=2}
+\addplot coordinates {(BT1,5.5) (BT2,9.2) (BT3,6.2) (BT4,58)};
+\end{axis}
+
+&
+
+\begin{axis}[
+			title = $EI_{equ}$,
+			ylabel= $\lbrack MN \cdot m^2\rbrack $ ,
+			ybar,
+			enlargelimits=0.25,
+			symbolic x coords={BT1,BT2,BT3,BT4},
+			xtick=data,
+			nodes near coords
+			]
+\pgfplotsset{cycle list shift=3}
+\addplot coordinates {(BT1,0.155) (BT2,0.092) (BT3,0.138) (BT4,0.015)};
+\end{axis}
+
+\\
+};
+\end{tikzpicture} 
+\caption{Vergleich der Bauteilversuche (Maximallast, Durchbiegung, Biegesteifigkeit)}
+\label{abb:vergleich_balkendiagramm}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[height=12cm, width=12cm, 
+			no markers,
+			xmajorgrids,ymajorgrids,
+			xlabel=Verschiebung $\lbrack mm \rbrack $ ,
+			xmin=0,ymin=0,
+			ylabel=Kraft\,$\lbrack kN \rbrack $,
+			legend pos= north east
+			]
+\addplot [blue,solid] table[y=F1,x=BT1u4]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [blue,densely dashed] table[y=F1,x=BT1u5]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [red,solid] table[y=F2,x=BT2u4]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [red,densely  dashed] table[y=F2,x=BT2u5]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [brown!60!black,solid] table[y=F3,x=BT3u4]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [brown!60!black,densely  dashed] table[y=F3,x=BT3u5]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [black,solid] table[y=F4,x=BT4u4]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\addplot [black,densely  dashed] table[y=F4,x=BT4u5]{Auswertung/vergleiche/vergleich_schubverformung1.dat};
+\legend{BT1\,u4,BT1\,u5,BT2\,u4,BT2\,u5,BT3\,u4,BT3\,u5,BT4\,u4,BT4\,u5}
+\end{axis}
+\end{tikzpicture}
+\caption{Vergleich der horizontalen Verschiebung beim Auflager }
+\label{vergleich-schubverformung-u4 und u5}
+\end{center}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+
+\begin{tikzpicture}
+\pgfplotsset{small,width=8cm}
+\matrix{
+ 
+
+\begin{axis}[	title = Zusammenhang $EI_{eff}$ und$\gamma$,
+				legend pos= south east,
+				no markers,
+				xmajorgrids,ymajorgrids,
+				ymajorgrids,ylabel=$EI_{eff}$\, $\lbrack MN \cdot m^2 \rbrack $ 									,xmin=0,ymin=0,
+				xlabel=$\gamma_{1}$\,$\lbrack 1 \rbrack $,
+				]
+				
+\addplot [only marks,color=blue, fill=blue!80!black] coordinates{	(0.58, 13.88)};
+\label{pgf:BT1}
+\addplot [only marks,color=red, fill=red!80!black] coordinates{	(0.26, 8.19)};
+\label{pgf:BT2}
+\addplot [only marks,color=brown!60!black, fill=brown!80!black] coordinates{	(0.54, 13.34)};
+\label{pgf:BT3}
+\addplot [only marks,color=black, fill=black] coordinates{ (0.21,6.98)};
+\label{pgf:BT4}
+\addplot table[y=EIeff,x=gamma1]{gammaverfahren/abbildungen/werte.dat};				
+				
+\end{axis} 
+ 
+&
+
+\begin{axis}[	title = Zusammenhang $\gamma$ und $c_{F}$,
+				legend pos= south east,
+				no markers,
+				xmajorgrids,ymajorgrids,
+				ymajorgrids,xlabel=$c_F$\,$\lbrack MN/m^2 \rbrack $ 												,xmin=0,ymin=0,
+				ylabel=$\gamma_{1}$\,$\lbrack 1 \rbrack $,
+				]
+\addplot [only marks,color=blue, fill=blue!80!black] coordinates{	(150,0.58)};
+\addplot [only marks,color=red, fill=red!80!black] coordinates{	(40, 0.26)};
+\addplot [only marks,color=brown!60!black, fill=brown!80!black] coordinates{	(120,0.54)};
+\addplot [only marks,color=black, fill=black] coordinates{ (30,0.21)};
+\addplot table[y=gamma1,x=c]{gammaverfahren/abbildungen/werte.dat};
+\end{axis}
+
+
+\\
+};
+\end{tikzpicture}
+\fbox{
+\ref{pgf:BT1} BT1 \ref{pgf:BT2} BT2  \ref{pgf:BT3} BT3  \ref{pgf:BT4} BT4
+ }
+ 
+\caption{Zusammenhänge zwischen $EI_{eff}$ , $\gamma$ und $c_F$)}
+\label{abb:zusammmenhaenge}
+\end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

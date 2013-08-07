@@ -1,0 +1,201 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: UTF8
+
+@INPROCEEDINGS{SikaDur31,
+  author = {Sika Österreich AG},
+  title = {Produktdatenblatt: SikaDur 31 AUT Normal},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{SikaFloor161,
+  author = {Sika Österreich AG},
+  title = {Produktdatenblatt: SikaFloor 161},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{SikaForce7710,
+  author = {Sika Österreich AG},
+  title = {Produktdatenblatt: SikaForce 7710 L35},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{SikaTop107,
+  author = {Sika Österreich AG},
+  title = {Produktdatenblatt:SikaTop-107 Seal},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{SikaTop109,
+  author = {Sika Österreich AG},
+  title = {Produktdatenblatt: SikaTop-109 ElastoCem},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@TECHREPORT{DINEN1995,
+  author = {DIN},
+  title = {DIN EN 1995-1-1: Holzbauwerke, Berechnung und Ausführung},
+  year = {2010},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@MASTERSTHESIS{E.Kirchmayer2012,
+  author = {E.Kirchmayer},
+  title = {Beitrag zur Entwicklung von Holz-Holzbeton-Betonverbunddecken},
+  school = {TU Wien},
+  year = {2012},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{WSD50,
+  author = {VELOX Werk GesmbH},
+  title = {Produktdatenblatt: WSD 50},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{WSD75,
+  author = {VELOX Werk GesmbH},
+  title = {Produktdatenblatt: WSD 75},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{TWIN,
+  author = {SFS intec GmbH},
+  title = {Produktdatenblatt: TWIN – DU d x L},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{TWIN_DU,
+  author = {SFS intec GmbH},
+  title = {Produktdatenblatt: TWIN – DU d x L Sichel},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{WR,
+  author = {SFS intec GmbH},
+  title = {Produktdatenblatt: WR – d x L},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{WRT,
+  author = {SFS intec GmbH},
+  title = {Produktdatenblatt: WR – T d x L},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{WT-T,
+  author = {SFS intec GmbH},
+  title = {Produktdatenblatt: WT – T d x L},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@INPROCEEDINGS{BSP,
+  author = {Mayr-Melnhof Kaufhaus Gruppe},
+  title = {Produktdatenblatt: BSP 118 3s Ind},
+  year = {2013},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@BOOK{Habenich2006,
+  title = {Kleben: Grundlagen, Technologien, Anwendungen},
+  publisher = {Springer VDI},
+  year = {2006},
+  author = {Dr.rer.nat. Habenich},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@BOOK{HeinzD.2008,
+  title = {Holzbau der Zukunft:Teilprojekt 16. Holzbeton},
+  publisher = {Fraunhofer IRB Verlag},
+  year = {2008},
+  author = {Heinz D., \& Urbonas L.},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@MASTERSTHESIS{K.Schernberger2011,
+  author = {K.Schernberger},
+  title = {Holzspanbeton-Verbunddeccken},
+  school = {TU Wien},
+  year = {2011},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@BOOK{TU2013,
+  title = {Flächen aus Brettstapeln, Brettsperholz und Verbundkonstruktionen},
+  publisher = {TU München, Lehrstuhl für Holzbau und Baukonstruktionen},
+  year = {Jänner,2013},
+  author = {Univ.-Prof. Dr.-Ing. Stefan Winter, Univ.-Prof. Dr.-Ing. Heinrich
+	Kreuzinger, Univ.-Prof. Dr.-Ing. Peter Mestek},
+  owner = {Tom},
+  timestamp = {2013.07.09}
+}
+
+@STANDARD{DINEN26891,
+  title = {DIN EN 26891 - Bla bla},
+  organization = {DIN e.V.},
+  owner = {Tom},
+  timestamp = {2013.08.05}
+}
+
+@TECHREPORT{DIN408,
+  title = {DIN EN 408: Holzbauwerke - Bauholz für tragende Zwecke und Brettschichtholz
+	- Bestimmung einiger physikalischer und mechanischer Eigenschaften},
+  year = {2012},
+  owner = {Tom},
+  timestamp = {2013.07.10}
+}
+
+@TECHREPORT{DIN1052,
+  title = {DIN 1052: Entwurf, Berechnung und Bemessung von Holzbauwerken - Allgemeine
+	Bemessungsregeln für den Hochbau},
+  year = {2008},
+  owner = {Tom},
+  timestamp = {2013.07.10}
+}
+
+@TECHREPORT{DIN923,
+  title = {DIN EN 923: Klebstoffe - Benennungen und Definitionen},
+  year = {2008},
+  owner = {Tom},
+  timestamp = {2013.07.10}
+}
+
+@TECHREPORT{OEN380,
+  title = {ÖNORM EN 380 :
+	
+	Holzbauwerke - Prüfverfahren - Allgemeine Grundsätze für die Prüfung
+	unter statischen Belastungen},
+  year = {1993},
+  owner = {Tom},
+  timestamp = {2013.07.10}
+}
+

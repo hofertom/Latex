@@ -1,0 +1,162 @@
+%%Andreas Neubauer, Juli 2009
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx,color}
+\usepackage[latin 1]{inputenc}
+\usepackage[naustrian]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+
+
+
+
+
+\textwidth 16cm
+\textheight 25cm
+\topmargin 3.2cm
+\oddsidemargin 0mm
+\parindent 0pt
+\pagestyle{empty}
+\begin{document}
+% -------- only change entries beginning here ----------------------------
+%
+% enter the title of the thesis
+%
+\def\title{Nummerische und analytische Betrachtung des Tragverhaltens von Holz-Holzleichtbeton-Sandwichbauweise mit einem Wirtschaftlichkeitsvergleich zu den handelsüblichen Deckensystemen.}
+%
+%
+% choose type of work: 0 ... Dissertation
+%                      1 ... Diplomarbeit
+%                      2 ... Masterarbeit
+\def\type{2}
+%
+%
+% enter name of degree, see examples below
+%
+\def\degree{Diplomingenieur}
+%\def\degree{Diplomingenieurin}
+%\def\degree{Master of Science}
+%\def\degree{Doktor}
+%\def\degree{Doktorin}
+%
+%
+% enter the study (Studienrichtung)
+% e.g. Diplomstudium:
+%\def\study{Technische Mathematik}
+% e.g. Masterstudium:
+% \def\study{Industriemathematik}
+% e.g. Doktorratsstudium
+%\def\study{Technischen Wissenschaften}
+%\def\study{Naturwissenschaften}
+%
+\def\study{Studienrichtung}
+%
+%
+% enter the name of the student
+%
+\def\name{Name of student}
+%
+%
+% enter the name of the institute
+% e.g.
+% \def\institute{Institut f\"ur Industriemathematik}
+%
+\def\institute{Name of institute}
+%
+%
+% enter the name of the supervisor (who is also the first referee)
+% was also the supervisor, do so by choosing the line with (Betreuung)
+%
+\def\firstreferee{Name of first referee}
+%
+%
+% in case of a second referee: uncomment the following line and enter the name
+%
+%\def\secondreferee{Name of second referee}
+%
+%
+% if there has been assistance by further people uncomment the following line
+% and enter the name(s). if there are several assistants speerate the names by \\
+%
+% \def\assist{Name of assistant}
+%\def\assist{Name of first assistant \\ Name of second assistant}
+%
+%
+% enter month year
+\def\date{month, year}
+%
+%
+% the vertival alignment heavily depends on the length of the title if there are
+% one or two supervisors or referees. whereever indicated as a question
+%      more space ???
+% below you might add additional space via (several) \medskip or \bigskip.
+% do not change anything else
+% -------------------------------------------------------------------------------
+%
+\def\ifundefined#1{\expandafter\ifx\csname#1\endcsname\relax}
+%
+\unitlength 1cm
+\definecolor{mygray}{gray}{.85}
+\sffamily
+\begin{picture}(0,0)
+\put(-2.6,5){\color{mygray}\rule{25cm}{2.6cm}}
+\put(9.7,5.2){\includegraphics[width=60mm]{tulogo}}
+\put(0,1){\includegraphics[width=3cm]{iti}}
+\put(3.2,1.6){\scriptsize Institut für }
+\put(3.2,1.3){\scriptsize Tragwerkslehre und  }
+\put(3.2,1.0){\scriptsize Ingenieurholzbau}
+
+\end{picture}
+%
+\begin{center}
+{\LARGE\bfseries\title}
+\bigskip\bigskip\bigskip\par
+{\Large\ifcase\type DISSERTATION\or BAKKALAUREATSARBEIT\or MASTERARBEIT\fi}
+\bigskip\par
+zur Erlangung des akademischen Grades
+\bigskip\smallskip\par
+{\Large\degree}
+\bigskip\par
+im \ifcase\type Doktoratsstudium der\or Diplomstudium\or Masterstudium\fi
+\bigskip\smallskip\par
+{\Large\study}
+\end{center}
+%
+% more space ???
+%\bigskip
+\bigskip\bigskip\bigskip\par
+Eingereicht von:
+\smallskip\par
+{\large\name}
+\medskip\bigskip\par
+Angefertigt am:
+\smallskip\par
+{\large\institute}
+\medskip\bigskip\par
+Beurteilung:
+\smallskip\par
+{\large\firstreferee}
+\ifundefined{secondreferee}\else {\large (Betreuung)}
+\smallskip\par
+{\large\secondreferee}\fi
+\ifundefined{assist}\else
+\medskip\bigskip\par
+Mitwirkung:
+\smallskip\par
+{\large\assist}
+\fi
+%
+% more space ???
+%\bigskip
+\bigskip\bigskip\bigskip\par
+{\large Wien,September 2013 \date}
+\end{document}
+
+
+
+
+
+\begin{document}
+Hallo Welt ! äöüÄÖÜß Dies ist ein
+ kleiner
+ Test .
+\end{document}

@@ -1,0 +1,24 @@
+\select@language {naustrian}
+\contentsline {chapter}{\numberline {1}Auswertung der Versuche}{2}
+\contentsline {section}{\numberline {1.1}Allgemeines}{2}
+\contentsline {section}{\numberline {1.2}1 Versuch}{2}
+\contentsline {subsection}{\numberline {1.2.1}Anmerkung:}{2}
+\contentsline {subsection}{\numberline {1.2.2}Versagensbeschreibung und Auswertung}{2}
+\contentsline {subsection}{\numberline {1.2.3}Schubversuch}{7}
+\contentsline {paragraph}{Erkl\IeC {\"a}rung des Schubversuchs}{7}
+\contentsline {paragraph}{Abemessungen und Versuchsdarstellung}{9}
+\contentsline {paragraph}{Versuchsablauf und Messeinrichtung}{9}
+\contentsline {paragraph}{Auswertung des Schubversuchs}{10}
+\contentsline {subparagraph}{Conclusio:}{10}
+\contentsline {section}{\numberline {1.3}2 Versuch}{13}
+\contentsline {subsection}{\numberline {1.3.1}Anmerkung:}{13}
+\contentsline {subsection}{\numberline {1.3.2}Vorbemerkung}{13}
+\contentsline {subsection}{\numberline {1.3.3}Versagensbeschreibung und Auswertung}{14}
+\contentsline {section}{\numberline {1.4}3 Versuch}{17}
+\contentsline {subsection}{\numberline {1.4.1}Anmerkung:}{17}
+\contentsline {subsection}{\numberline {1.4.2}Versagensbeschreibung und Auswertung}{17}
+\contentsline {section}{\numberline {1.5}4 Versuch}{22}
+\contentsline {subsection}{\numberline {1.5.1}Anmerkung:}{22}
+\contentsline {subsection}{\numberline {1.5.2}Vorbemerkung}{22}
+\contentsline {subsection}{\numberline {1.5.3}Versagensbeschreibung und Auswertung}{23}
+\contentsline {section}{\numberline {1.6}Vergleich}{27}
